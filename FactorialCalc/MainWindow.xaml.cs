@@ -52,7 +52,6 @@ namespace FactorialCalc
 
         public void Permutations()
         {
-            //TODO: Write Formulate to out put the permutation of 2 numbers. Be sure to utilize the code from the Factorial() above to help you solve the problem. 
             double n = 0;
             double nFact = 1;
             double r = 0;
@@ -74,7 +73,7 @@ namespace FactorialCalc
             }
 
             double permutationsAnswer = nFact / nMinusRFact;
-            xPermutationAnswer.Text = permutationsAnswer.ToString(); ;
+            xPermutationAnswer.Text = permutationsAnswer.ToString();
 
         }
 
